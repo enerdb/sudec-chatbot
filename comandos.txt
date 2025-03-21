@@ -1,0 +1,5 @@
+Set-ExecutionPolicy Unrestricted -Scope Process
+.\.venv\Scripts\Activate.ps1
+pip installl -r requirements.txt
+
+.venv\Scripts\python.exe -m streamlit run app.py
